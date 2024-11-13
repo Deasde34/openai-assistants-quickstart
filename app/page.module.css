@@ -4,12 +4,23 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: white;
+  background-color: #141414;
 }
 .title {
   font-size: 1.5em;
   margin-bottom: 20px;
   font-weight: 600;
+}
+.sidebar {
+  display: flex;
+  height: 100vh;
+  width: 16rem; /* equivalente a w-64 */
+  flex-direction: column;
+  border-right: 2px solid #262626; /* neutral-800 */
+  align-items: flex-start;
+  gap: 2rem; /* equivalente a gap-8 */
+  padding: 0.75rem 2.5rem; /* px-10 py-3 */
+  padding-top: 6rem; /* pt-24 */
 }
 
 .container {
